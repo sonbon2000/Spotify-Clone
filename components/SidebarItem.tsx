@@ -3,7 +3,7 @@ import React from "react";
 import { IconType } from "react-icons";
 import { twMerge } from "tailwind-merge";
 
-type SidebarItem = {
+interface SidebarItem  {
   icon: IconType;
   label: string;
   active?: boolean;
